@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# MLflow / outputs
+mlflow.db
+mlruns/
+outputs/
+.ipynb_checkpoints/
