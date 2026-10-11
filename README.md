@@ -8,13 +8,19 @@ Tareas del curso. Un solo entorno de Python (`uv`) compartido; cada tarea vive e
 mlops/
 ├── pyproject.toml / uv.lock     # dependencias compartidas
 ├── tareas/
-│   └── 01-baseline-telco-churn/
-│       ├── TC5061_Notebook_Baseline_GutierrezOscar.ipynb   # entregable
+│   ├── 01-baseline-telco-churn/
+│   │   ├── TC5061_Notebook_Baseline_GutierrezOscar.ipynb   # entregable
+│   │   ├── data/                 # datos de entrada (versionados)
+│   │   ├── img/                  # capturas para la entrega
+│   │   ├── outputs/              # figuras generadas        (ignorado por git)
+│   │   ├── mlflow.db             # tracking de MLflow       (ignorado por git)
+│   │   └── mlruns/               # artefactos de MLflow     (ignorado por git)
+│   └── 02-experimentacion-mlflow/
+│       ├── train.py              # script de entrenamiento con MLflow
+│       ├── requirements.txt      # versiones de las librerías
+│       ├── README.md             # cómo ejecutar
 │       ├── data/                 # datos de entrada (versionados)
-│       ├── img/                  # capturas para la entrega
-│       ├── outputs/              # figuras generadas        (ignorado por git)
-│       ├── mlflow.db             # tracking de MLflow       (ignorado por git)
-│       └── mlruns/               # artefactos de MLflow     (ignorado por git)
+│       └── img/                  # capturas para la entrega
 └── ejemplos/
     └── hello_mlflow.py           # prueba mínima de MLflow
 ```

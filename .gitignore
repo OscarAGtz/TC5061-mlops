@@ -14,3 +14,7 @@ mlflow.db
 mlruns/
 outputs/
 .ipynb_checkpoints/
+confusion_matrix.png
+
+# macOS
+.DS_Store
